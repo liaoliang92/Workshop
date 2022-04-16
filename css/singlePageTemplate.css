@@ -35,16 +35,15 @@ header {
 	text-align: undefined;
 	width: 10%;
 	float: left;
-	margin-top: 15px;
-	margin-left: 25px;
-	letter-spacing: 4px;
+	margin-top: 1.5rem;
+	margin-left: 2.5rem;
+	letter-spacing: 0.4rem;
 }
 nav {
 	float: right;
 	width: 60%;
 	text-align: right;
-	margin-right: 20
-		px;
+	margin-right: 1.6rem;
 }
 header nav ul {
 	list-style: none;
@@ -53,11 +52,11 @@ header nav ul {
 nav ul li {
 	float: left;
 	color: #FFFFFF;
-	font-size: 18px;
+	font-size: 1.2rem;
 	text-align: left;
-	margin-top: 18px;
-	margin-right: 20px;
-	letter-spacing: 2px;
+	margin-top: 1.2rem;
+	margin-right: 1.6rem;
+	letter-spacing: 0.2rem;
 	font-weight: bold;
 	transition: all 0.3s linear;
 }
@@ -80,8 +79,8 @@ ul li:hover a {
 /* Hero Section */
 .hero {
 	background-color: #B3B3B3;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 .light {
 	font-weight: bold;
@@ -90,7 +89,7 @@ ul li:hover a {
 .tagline {
 	text-align: center;
 	color: #FFFFFF;
-	margin-top: 4px;
+	margin-top: 0.4rem;
 	font-weight: lighter;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -106,14 +105,14 @@ ul li:hover a {
 .stats {
 	color: #19A8E4;
 	text-align: center;
-	margin-bottom: 5px;
-		font-size:40px;
+	margin-bottom: 0.33rem;
+		font-size:2.67rem;
 
 }
 .stats_text {
 	color: #FFFFFF;
-	margin-bottom: 5px;
-	font-size:25px;
+	margin-bottom: 0.33rem;
+	font-size:1.7rem;
    text-align: justify;
 		margin-left: 5%;
 		margin-right: 5%;
@@ -125,7 +124,7 @@ ul li:hover a {
     width: 80%;
 	margin-left: 10%;
 	color: #FFFFFF;
-	font-size:64px;
+	font-size:4.2rem;
 	text-align: center;
 }
 
@@ -135,7 +134,7 @@ ul li:hover a {
     top: 72%;
     width: 100%;
 	color: #FFFFFF;
-	font-size:60px;
+	font-size:4rem;
 	text-align: center;
 }
 
@@ -173,8 +172,8 @@ ul li:hover a {
   width: 16.6666%;
 }
 .people-pic {
-    max-width: 200px;
-    height: 200px;
+    max-width: 13.8rem;
+    height: 13.8rem;
     object-fit: cover;
     text-align: center;
 }
@@ -183,7 +182,7 @@ ul li:hover a {
     text-align: center;
     text-overflow: ellipsis;
 	color: #FFFFFF;
-	font-size:20px;
+	font-size:1.38rem;
 }
 
 .title3 {
@@ -192,7 +191,7 @@ ul li:hover a {
     top: 83%;
     width: 100%;
 	color: #FFFFFF;
-	font-size:60px;
+	font-size:4rem;
 	text-align: center;
 }
 
