@@ -179,7 +179,7 @@ ul li:hover a {
 
 
 /* Mobile */
-@media (max-width: 400px) {
+@media (max-width: 600px) {
 body {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	background-color: #384B58;
@@ -360,108 +360,181 @@ ul li:hover a {
 
 /* Small Tablets */
 @media (min-width: 321px)and (max-width: 767px) {
-.logo {
-	width: 100%;
-	text-align: center;
-	margin-top: 13px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	color: #043745;
-}
-.container header nav {
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: #384B58;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	width: 100%;
-	float: none;
-	overflow: auto;
-	display: inline-block;
-	background: #52bad5;
+	font-style: normal;
+	font-weight: 200;
+}
+
+/* Container */
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #384B58;
+}
+	
+.mmimg {
+	width: 9rem;
+	height: 2.866rem;
+}
+	
+	
+/* Navigation */
+header {
+	width: 90%;
+	height: 8%;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #5d7376;
+	border-bottom: 0.03rem solid #2C9AB7;
+}
+.logo {
+	color: #fff;
+	font-weight: bold;
+	text-align: undefined;
+	width: 10%;
+	float: left;
+	margin-top: 0.7rem;
+	margin-left: 1.2rem;
+	letter-spacing: 0.2rem;
+}
+nav {
+	float: right;
+	width: 60%;
+	text-align: right;
+	margin-right: 0.75rem;
 }
 header nav ul {
-	padding: 0px;
-	float: none;
+	list-style: none;
+	float: right;
 }
 nav ul li {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	text-align: center;
-	padding-top: 8px;
-	padding-bottom: 8px;
-}
-.text_column {
-	width: 100%;
+	float: left;
+	color: #FFFFFF;
+	font-size: 0.56rem;
 	text-align: left;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+	margin-top: 0.56rem;
+	margin-right: 10.75rem;
+	letter-spacing: 0.95rem;
+	font-weight: bold;
+	transition: all 0.3s linear;
 }
-.thumbnail {
-	width: 100%;
+ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
 }
-.footer_column {
-	width: 100%;
-	margin-top: 0px;
+ul li:hover a {
+	color: #2C9AB7;
 }
-.parallax {
+.hero_header {
+	color: #FFFFFF;
 	text-align: center;
 	margin-top: 0px;
-	margin-right: 0px;
+	margin-right: 	5%;;
 	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 40%;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	width: 100%;
-	font-size: 18px;
+	margin-left: 5%;
+	letter-spacing: 0.012rem;
 }
-.parallax_description {
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	margin-top: 30%;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	float: none;
-	width: 100%;
+/* Stats Gallery */
+.row {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+
+.stats {
+	color: #19A8E4;
+	text-align: center;
+	margin-bottom: 0.15rem;
+		font-size:1.3rem;
+
+}
+.stats_text {
+	color: #FFFFFF;
+	margin-bottom: 0.16rem;
+	font-size:0.8rem;
+   text-align: justify;
+		margin-left: 5%;
+		margin-right: 5%;
+}
+.title {
+	font-family: Arial;
+	position: absolute;
+    top: 28%;
+    width: 80%;
+	margin-left: 10%;
+	color: #FFFFFF;
+	font-size:2rem;
 	text-align: center;
 }
-.thumbnail {
-	width: 50%;
+
+.title2 {
+	font-family: Arial;
+	position: absolute;
+    top: 72%;
+    width: 100%;
+	color: #FFFFFF;
+	font-size:1.9rem;
+	text-align: center;
 }
-.parallax {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-top: 20%;
+
+.text-center {
+  text-align: center;
+  padding-left: 8%;
 }
-.parallax_description {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	padding-top: 30px;
+
+.text-center_organizer {
+  text-align: center;
+  padding-left: 8.8%;
+
 }
-.banner {
-	padding-left: 20px;
-	padding-right: 20px;
+
+.col-xs-3 {
+	  text-align: center;
+  position: relative;
+  min-height: 0.013rem;
+  padding-right: 2%;
+  padding-left: 2%;
+	float: left;
+  width: 20%;
 }
-.footer_column {
-	width: 100%;
+
+.col-xs-2 {
+  position: relative;
+  min-height: 0.013rem;
+  padding-right: 1%;
+  padding-left: 1%;
+	float: left;
+  width: 16.6666%;
+}
+.people-pic {
+    max-width: 7.8rem;
+    height: 7.8rem;
+    object-fit: cover;
+    text-align: center;
+}
+
+.people-name {
+    text-align: center;
+    text-overflow: ellipsis;
+	color: #FFFFFF;
+	font-size:0.65rem;
+}
+
+.title3 {
+	font-family: Arial;
+	position: absolute;
+    top: 83%;
+    width: 100%;
+	color: #FFFFFF;
+	font-size:1.9rem;
+	text-align: center;
 }
 }
 
