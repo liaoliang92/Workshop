@@ -237,11 +237,11 @@ header nav ul {
 nav ul li {
 	float: left;
 	color: #FFFFFF;
-	font-size: 0.3rem;
+	font-size: 0.15rem;
 	text-align: left;
-	margin-top: 0.3rem;
-	margin-right: 2.75rem;
-	letter-spacing: 0.2rem;
+	margin-top: 0.15rem;
+	margin-right: 0.5rem;
+	letter-spacing: 0.1rem;
 	font-weight: bold;
 	transition: all 0.3s linear;
 }
@@ -417,11 +417,11 @@ header nav ul {
 nav ul li {
 	float: left;
 	color: #FFFFFF;
-	font-size: 0.3rem;
+	font-size: 0.15rem;
 	text-align: left;
-	margin-top: 0.3rem;
-	margin-right: 2.75rem;
-	letter-spacing: 0.2rem;
+	margin-top: 0.15rem;
+	margin-right: 0.5rem;
+	letter-spacing: 0.1rem;
 	font-weight: bold;
 	transition: all 0.3s linear;
 }
