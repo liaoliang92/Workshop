@@ -80,6 +80,7 @@ ul li:hover a {
 /* Stats Gallery */
 .pic {
   margin-bottom: -1vw;
+ width: 90%;
 }
 
 .link {
@@ -307,6 +308,7 @@ ul li:hover a {
 /* Stats Gallery */
 .pic {
   margin-bottom: -1vw;
+ width: 100%;
 }
 
 .link {
@@ -316,7 +318,7 @@ ul li:hover a {
 .row {
   margin-bottom: 0vw;
 }
-
+	
 .stats {
 	color: #19A8E4;
 	text-align: center;
