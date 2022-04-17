@@ -282,9 +282,9 @@ header nav ul {
 nav ul li {
 	float: left;
 	color: #FFFFFF;
-	font-size: 1.5vw;
+	font-size: 1.45vw;
 	text-align: center;
-	margin-top: -1.6vw;
+	margin-top: -1.4vw;
 	margin-right: 0.8vw;
 	letter-spacing: 0.1vw;
 	font-weight: bold;
@@ -320,18 +320,18 @@ ul li:hover a {
 .stats {
 	color: #19A8E4;
 	text-align: center;
-	font-size:2.8vw;
+	font-size:3vw;
 
 }
 .stats_organizers {
-	font-size:2.8vw;
+	font-size:3vw;
 
 }
 
 .stats_text {
 	color: #FFFFFF;
 	margin-bottom: 0.25vw;
-	font-size:2.8vw;
+	font-size:3vw;
    /*text-align: justify;*/
 		margin-left: 7%;
 		margin-right: 7%;
@@ -409,8 +409,8 @@ ul li:hover a {
   width: 16.6666%;
 }
 .people-pic {
-    max-width: 12vw;
-    height: 12vw;
+    max-width: 13vw;
+    height: 13vw;
     object-fit: cover;
     text-align: center;
 	margin-bottom: -1.2vw;
@@ -425,18 +425,18 @@ ul li:hover a {
 }
 
 .people-name-name {
-	font-size:2.5vw;
+	font-size:2.2vw;
 	margin-bottom: -1.0vw;
 }
 
 
 .people-name-inner {
-	font-size:2.0vw;
+	font-size:1.8vw;
 	margin-bottom: -0.8vw;
 }
 
 .people-name-outer {
-	font-size:2.0vw;
+	font-size:1.8vw;
 	margin-bottom: 2vw;
 }
 
