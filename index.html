@@ -1,5 +1,18 @@
 <!doctype html>
 <html lang="en-US">
+<script>(function() {
+    if (typeof WeixinJSBridge == "object" && typeof WeixinJSBridge.invoke == "function") {
+        handleFontSize();
+    } else {
+        document.addEventListener("WeixinJSBridgeReady", handleFontSize, false);
+    }
+    function handleFontSize() {
+        WeixinJSBridge.invoke('setFontSizeCallback', { 'fontSize' : 0 });
+        WeixinJSBridge.on('menu:setfont', function() {
+            WeixinJSBridge.invoke('setFontSizeCallback', { 'fontSize' : 0 });
+        });
+    }
+})();</script>
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -20,19 +33,7 @@
 </head>
 <body>
 <!-- Main Container -->
-<script>(function() {
-    if (typeof WeixinJSBridge == "object" && typeof WeixinJSBridge.invoke == "function") {
-        handleFontSize();
-    } else {
-        document.addEventListener("WeixinJSBridgeReady", handleFontSize, false);
-    }
-    function handleFontSize() {
-        WeixinJSBridge.invoke('setFontSizeCallback', { 'fontSize' : 0 });
-        WeixinJSBridge.on('menu:setfont', function() {
-            WeixinJSBridge.invoke('setFontSizeCallback', { 'fontSize' : 0 });
-        });
-    }
-})();</script>
+
 <div class="container"> 
   <!-- Navigation -->
   <header class="header" ><img class="mmimg" src="images/MMpage2.png" />
