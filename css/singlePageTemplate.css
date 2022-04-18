@@ -319,12 +319,11 @@ nav ul li {
 	font-size: 1.9vw;
 	text-align: center;
 	margin-top: -1.6vw;
-	margin-right: 0.6vw;
+	margin-right: 0.4vw;
 	letter-spacing: 0.1vw;
 	font-weight: bold;
 	transition: all 0.3s linear;
-		transform: scale(0.75,0.75);
-
+	transform: scale(0.7,0.7);
 }
 ul li a {
 	color: #FFFFFF;
