@@ -501,7 +501,7 @@ ul li:hover a {
 
 nav {
 	float: center;
-	width: 70%;
+	width: 80%;
 	text-align: center;
 	margin-right: 0.2vw;
 
@@ -513,12 +513,11 @@ header nav ul {
 nav ul li {
 	float: left;
 	color: #FFFFFF;
-	font-size: 1.2vw;
+	font-size: 1vw;
 	text-align: center;
-	margin-top: -1.2vw;
+	margin-top: -1vw;
 	margin-right: 0.8vw;
 	letter-spacing: 0.1vw;
-	font-weight: bold;
 	transition: all 0.3s linear;
 }
 ul li a {
