@@ -323,6 +323,8 @@ nav ul li {
 	letter-spacing: 0.1vw;
 	font-weight: bold;
 	transition: all 0.3s linear;
+		transform: scale(0.8,0.8);
+
 }
 ul li a {
 	color: #FFFFFF;
@@ -583,6 +585,7 @@ nav ul li {
 	margin-right: 0.7vw;
 	letter-spacing: 0.1vw;
 	transition: all 0.3s linear;
+	transform: scale(0.8,0.8);
 }
 ul li a {
 	color: #FFFFFF;
