@@ -306,7 +306,7 @@ nav {
 	float: center;
 	width: 77%;
 	text-align: center;
-	margin-right: 0.9vw;
+	margin-right: 1.9vw;
 
 }
 header nav ul {
@@ -319,7 +319,7 @@ nav ul li {
 	font-size: 1.9vw;
 	text-align: center;
 	margin-top: -1.6vw;
-	margin-right: -1.9vw;
+	margin-right: -2.1vw;
 	letter-spacing: 0.1vw;
 	font-weight: bold;
 	transition: all 0.3s linear;
