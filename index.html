@@ -20,6 +20,19 @@
 </head>
 <body>
 <!-- Main Container -->
+<script>(function() {
+    if (typeof WeixinJSBridge == "object" && typeof WeixinJSBridge.invoke == "function") {
+        handleFontSize();
+    } else {
+        document.addEventListener("WeixinJSBridgeReady", handleFontSize, false);
+    }
+    function handleFontSize() {
+        WeixinJSBridge.invoke('setFontSizeCallback', { 'fontSize' : 0 });
+        WeixinJSBridge.on('menu:setfont', function() {
+            WeixinJSBridge.invoke('setFontSizeCallback', { 'fontSize' : 0 });
+        });
+    }
+})();</script>
 <div class="container"> 
   <!-- Navigation -->
   <header class="header" ><img class="mmimg" src="images/MMpage2.png" />
