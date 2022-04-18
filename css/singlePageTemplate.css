@@ -223,6 +223,7 @@ ul li:hover a {
 
 .people-name-outer {
 	font-size:1vw;
+		margin-bottom: 1.5vw;
 }
 
 .secondary_header {
@@ -317,9 +318,9 @@ nav ul li {
 	float: left;
 	color: #FFFFFF;
 	font-size: 2.2vw;
-	text-align: center;
+	text-align: right;
 	margin-top: -1.6vw;
-	margin-right: -2.7vw;
+	margin-right: -3vw;
 	letter-spacing: 0.1vw;
 	font-weight: bold;
 	transition: all 0.3s linear;
@@ -484,6 +485,7 @@ ul li:hover a {
 
 .people-name-outer {
 	font-size:1.8vw;
+	margin-bottom: 0.25vw;
 }
 
 .secondary_header {
@@ -579,9 +581,9 @@ nav ul li {
 	float: left;
 	color: #FFFFFF;
 	font-size: 1.7vw;
-	text-align: center;
+	text-align: right;
 	margin-top: -1.1vw;
-	margin-right: -1.8vw;
+	margin-right: -2.2vw;
 	letter-spacing: 0.1vw;
 	transition: all 0.3s linear;
 	transform: scale(0.65,0.65);
