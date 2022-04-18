@@ -278,7 +278,7 @@ ul li:hover a {
 
 nav {
 	float: center;
-	width: 80%;
+	width: 75%;
 	text-align: center;
 	margin-right: 0.2vw;
 
@@ -292,7 +292,7 @@ nav ul li {
 	color: #FFFFFF;
 	font-size: 1.45vw;
 	text-align: center;
-	margin-top: -1.4vw;
+	margin-top: -1.5vw;
 	margin-right: 0.8vw;
 	letter-spacing: 0.1vw;
 	font-weight: bold;
@@ -488,6 +488,31 @@ ul li:hover a {
 }
 
 @media (max-width: 320px) {
+	body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	background-color: #384B58;
+	margin-top: 0vw;
+	margin-right: 0vw;
+	margin-bottom: 0vw;
+	margin-left: 0vw;
+	font-style: normal;
+	font-weight: 200;
+}
+
+/* Container */
+.container {
+	width: 100%;
+	background-color: #384B58;
+}
+
+	
+.mmimg {
+	width: 19.2vw;
+	height: 6vw;
+	margin-bottom: -0.8vw;
+}
+
+/* Navigation */
 .header {
 	position: fixed;
     top:0;
@@ -501,7 +526,7 @@ ul li:hover a {
 
 nav {
 	float: center;
-	width: 80%;
+	width: 70%;
 	text-align: center;
 	margin-right: 0.2vw;
 
@@ -513,11 +538,12 @@ header nav ul {
 nav ul li {
 	float: left;
 	color: #FFFFFF;
-	font-size: 1vw;
+	font-size: 1.45vw;
 	text-align: center;
-	margin-top: -1vw;
-	margin-right: 0.8vw;
+	margin-top: -1.5vw;
+	margin-right: 0.7vw;
 	letter-spacing: 0.1vw;
+	font-weight: bold;
 	transition: all 0.3s linear;
 }
 ul li a {
@@ -526,5 +552,185 @@ ul li a {
 }
 ul li:hover a {
 	color: #2C9AB7;
+}
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0vw;
+	margin-bottom: 0vw;
+	letter-spacing: 0.0267vw;
+}
+/* Stats Gallery */
+.pic {
+  margin-bottom: -1vw;
+ width: 100%;
+}
+
+.link {
+  color: #46C5D4;
+}
+
+.row {
+  margin-bottom: 0vw;
+}
+	
+.stats {
+	color: #19A8E4;
+	text-align: center;
+	font-size:3vw;
+
+}
+.stats_organizers {
+	font-size:3vw;
+
+}
+
+.stats_text {
+	color: #FFFFFF;
+	margin-bottom: 0.25vw;
+	font-size:3vw;
+   /*text-align: justify;*/
+		margin-left: 7%;
+		margin-right: 7%;
+}
+	
+.stats_text_ul {
+	color: #FFFFFF;
+	margin-bottom: 0.25vw;
+	font-size:2.8vw;
+   /*text-align: justify;*/
+		margin-left: -6%;
+		margin-right: 2%;
+}
+	
+.title {
+	font-family: Arial;
+	position: absolute;
+    top: 35%;
+    width: 94%;
+	color: #FFFFFF;
+	margin-left: 3%;
+	font-size:3.8vw;
+	text-align: center;
+	line-height:4.5vw;
+}
+
+.subtitle {
+	font-family: Arial;
+	position: absolute;
+    top: 55%;
+    width: 90%;
+	margin-left: 5%;
+	color: #FFFFFF;
+	font-size:2.8vw;
+	text-align: center;
+}
+	
+.title2 {
+	font-family: Arial;
+	position: absolute;
+    top: 82%;
+    width: 100%;
+		margin-left: 0;
+	margin-right: 0;
+	color: #FFFFFF;
+	font-size:3.0vw;
+	text-align: center;
+}
+
+
+.title3 {
+	font-family: Arial;
+	position: absolute;
+    top: 90%;
+    width: 100%;
+	color: #FFFFFF;
+	font-size:3.0vw;
+	text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-center_organizer {
+  text-align: center;
+
+}
+
+.col-xs-3 {
+	  text-align: center;
+  position: relative;
+  min-height: 0.0267vw;
+  padding-right: 2%;
+  padding-left: 2%;
+	float: left;
+  width: 20%;
+}
+
+.col-xs-2 {
+  position: relative;
+  min-height: 0.0267vw;
+  padding-right: 1%;
+  padding-left: 1%;
+	float: left;
+  width: 16.6666%;
+}
+.people-pic {
+    max-width: 13vw;
+    height: 13vw;
+    object-fit: cover;
+    text-align: center;
+	margin-bottom: -1.2vw;
+
+}
+
+.people-name {
+    text-align: center;
+    text-overflow: ellipsis;
+	color: #FFFFFF;
+	font-size:1.2vw;
+}
+
+.people-name-name {
+	font-size:2.2vw;
+	margin-bottom: -1.0vw;
+}
+
+
+.people-name-inner {
+	font-size:1.8vw;
+	margin-bottom: -0.8vw;
+}
+
+.people-name-outer {
+	font-size:1.8vw;
+}
+
+.secondary_header {
+	width: 100%;
+	margin-top: 20vw;
+	margin-left: 0vw;
+	margin-right: 0vw;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	background-color: #20518B;
+	clear: left;
+}
+
+.footer {
+	background-color: #20518B;
+}
+
+.copyright {
+	text-align: center;
+	background-color: #20518B;
+	color: #FFFFFF;
+	font-size:2.5vw;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 0.053vw;
+	border-top-width: 0.053vw;
+	font-family: "Source Sans Pro";
 }
 }
